@@ -1,0 +1,12 @@
+openai
+langchain
+langchain-core    # ✅ updated to meet langchain’s requirement
+langchain-community
+langchain-openai
+langsmith
+langchain-community==0.0.36
+langgraph
+langgraph[sqlite]
+supabase
+fastapi
+uvicorn

@@ -1,0 +1,51 @@
+# Ignore Python virtual environment
+rag_env/
+__pycache__/
+
+# Ignore local configuration and secrets
+.env
+config.py
+
+# Ignore Supabase secrets inside frontend
+frontend/.env
+
+# Ignore SQLite database and WAL logs (LangGraph memory)
+chat_memory.db
+chat_memory.db-shm
+chat_memory.db-wal
+
+# Ignore node_modules for both frontend and backend (can be regenerated)
+node_modules/
+frontend/node_modules/
+
+# Optional: Ignore logs and OS files
+*.log
+.DS_Store
+
+coSolutions/
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
