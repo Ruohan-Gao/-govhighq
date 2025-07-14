@@ -29,7 +29,7 @@ A centralized platform for federal contract intelligence and AI-powered query su
 | Frontend     | React + Tailwind (or MUI)   |
 | Backend      | Python (Flask or FastAPI), Node.js (optional) |
 | AI Layer     | OpenAI API / LangChain / Azure AI Search |
-| Storage      | Firestore / Blob Storage / BigQuery |
+| Storage      | PostgreSQL / Blob Storage |
 | Platform     | Google Cloud Platform (GCP) |
 | Auth         | Firebase Auth / OAuth2      |
 
