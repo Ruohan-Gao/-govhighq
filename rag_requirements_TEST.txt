@@ -4,7 +4,7 @@ langchain-core    # ✅ updated to meet langchain’s requirement
 langchain-community
 langchain-openai
 langsmith
-langchain-community==0.0.36
+langchain-community
 langgraph
 # langgraph
 supabase
@@ -14,4 +14,4 @@ python-dotenv
 azure-search-documents
 azure-identity
 psycopg2-binary
-# langgraph-checkpoint-postgres
+langgraph-checkpoint-postgres

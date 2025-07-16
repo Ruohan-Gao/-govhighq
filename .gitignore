@@ -1,6 +1,8 @@
 # Ignore Python virtual environment
 rag_env/
 __pycache__/
+rag_env_test/
+rag_test_env/
 
 # Ignore local configuration and secrets
 .env

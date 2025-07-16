@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-from Rag_model import run_llm  # Import your wrapper function
+from Rag_model_TEST import run_llm  # Import your wrapper function
 from fastapi.middleware.cors import CORSMiddleware
 
 
